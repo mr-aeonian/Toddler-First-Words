@@ -34,7 +34,6 @@ function animation(){
 changeImage.addEventListener("click", function () {
     var randomNumber = Math.floor(Math.random() * n);
     img.innerHTML = "<img src=\"" + array[randomNumber] + "\"/>"; 
-    console.log(randomNumber);
     switch(temp){
         case "animals":
             title.innerHTML = animalsObj[randomNumber].animalName;
