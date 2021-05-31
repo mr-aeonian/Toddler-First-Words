@@ -6,7 +6,7 @@
 font-family: 'Oswald', sans-serif;*/
 
 .header-bg{
-  background-image: url('/imgs/header-bg.png');
+  background-image: url('./imgs/header-bg.png');
   padding: 35px 0;
   filter: drop-shadow(5px 10px 20px #790600);
 }
